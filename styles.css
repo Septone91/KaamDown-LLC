@@ -2284,3 +2284,74 @@ a.prototype-link {
   flex-basis: auto;
   background-color: rgba(255, 248, 245, 1);
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  
+  .container-22,
+  .hero-section-36,
+  .cta-row-46,
+  .trust-row-51,
+  .feature-cards-73,
+  .container-96,
+  .container-147,
+  .container-3,
+  .container-4,
+  .container-9 {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+  
+  .feature-card-1-74,
+  .feature-card-2-81,
+  .feature-card-3-88 {
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+  
+  .hero-content-40,
+  .hero-visual-58,
+  .left-column-97,
+  .preview-column-120,
+  .copy-column-148,
+  .node-95,
+  .node-66 {
+    width: 100% !important;
+    min-width: unset !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+  
+  .topnavbar-21 {
+    padding: 16px !important;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+  
+  .container-22 { gap: 16px !important; }
+  .container-25 { flex-direction: column !important; gap: 8px !important; width: 100% !important; }
+  .hero-section-36 { gap: 32px !important; padding: 16px !important; box-sizing: border-box; }
+  .feature-cards-73 { gap: 24px !important; }
+  .container-96 { gap: 32px !important; }
+  .container-147 { gap: 32px !important; padding: 0 !important; width: 100% !important; }
+  .app-store-section-146 { padding: 32px 16px !important; width: 100% !important; box-sizing: border-box; }
+  .node-95 { padding: 32px 16px !important; box-sizing: border-box; }
+  .node-66 { padding: 32px 16px !important; box-sizing: border-box; }
+  
+  .bg-glow-top-20, .bg-glow-bottom-34 {
+    display: none !important;
+  }
+  
+  .footer-2 { padding: 32px 16px !important; height: auto !important; width: 100% !important; box-sizing: border-box; }
+  .container-3, .container-4, .container-9 { gap: 16px !important; }
+}
